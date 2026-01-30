@@ -1,10 +1,10 @@
-import React from "react";
-import SectionHeading from "./Utility/SectionHeading";
+import SectionHeader from "../components/ui/SectionHeader";
 
-function Gallery() {
+export default function Gallery() {
   return (
-    <div className="bg-dark w-full pt-8 lg:py-8 lg:px-8" id="gallery">
-      <SectionHeading title="GALERIA" />
+    <div className="mx-auto max-w-[75%] py-24 sm:py-32" id="gallery">
+      <SectionHeader title="Galeria" />
+
       <div className="lg:flex gap-4">
         <div className="overflow-hidden lg:flex flex-col gap-4 lg:w-3/5">
           <img
@@ -46,5 +46,3 @@ function Gallery() {
     </div>
   );
 }
-
-export default Gallery;

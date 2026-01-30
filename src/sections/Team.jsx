@@ -1,3 +1,5 @@
+import SectionHeader from "../components/ui/SectionHeader";
+
 const team = [
   {
     name: "Adam Kania",
@@ -23,12 +25,7 @@ export default function Team() {
   return (
     <section id="team" className="bg-[#171A1B] text-white py-24 sm:py-32">
       <div className="max-w-screen-2xl mx-auto px-6 sm:px-8 lg:px-12">
-        <div className="text-center mb-32">
-          <h2 className="text-sm tracking-widest uppercase text-[#c8a35d]">
-            Nasz zespół
-          </h2>
-          <div className="mt-4 mx-auto w-24 h-px bg-[#c8a35d]" />
-        </div>
+        <SectionHeader title="Nasz zespół" />
 
         <div className="space-y-40">
           {team.map((member, index) => (

@@ -37,7 +37,9 @@ const Hero = forwardRef(function Hero(_, ref) {
 
         <div className="mt-10 flex flex-col sm:flex-row justify-center gap-6 tracking-widest text-xs sm:text-sm uppercase">
           <Button href="#contact">Więcej o nas</Button>
-          <Button href="#contact">Nasze usługi</Button>
+          <Button variant="outline" href="#contact">
+            Nasze usługi
+          </Button>
         </div>
       </div>
     </section>

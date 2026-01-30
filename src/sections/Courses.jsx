@@ -1,4 +1,5 @@
 import Button from "../components/ui/Button";
+import SectionHeader from "../components/ui/SectionHeader";
 
 const courses = [
   {
@@ -31,12 +32,7 @@ export default function Courses() {
   return (
     <section id="courses" className="bg-[#161a19] text-white py-24 sm:py-32">
       <div className="max-w-screen-xl mx-auto px-12 md:px-4">
-        <div className="text-center mb-20">
-          <h2 className="text-sm tracking-widest uppercase text-[#c8a35d]">
-            Kursy
-          </h2>
-          <div className="mt-4 mx-auto w-24 h-px bg-[#c8a35d]" />
-        </div>
+        <SectionHeader title="Kursy" />
 
         <div className="grid gap-16 md:gap-20 lg:gap-32 lg:grid-cols-3">
           {courses.map((course) => (

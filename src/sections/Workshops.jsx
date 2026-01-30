@@ -1,3 +1,5 @@
+import SectionHeader from "../components/ui/SectionHeader";
+
 const workshops = [
   {
     title: "Warsztat – Modern Długie włosy",
@@ -31,12 +33,7 @@ export default function Workshops() {
   return (
     <section id="workshops" className="bg-white py-24 sm:py-32">
       <div className="max-w-screen-2xl mx-auto px-6 sm:px-8 lg:px-12">
-        <div className="text-center mb-24">
-          <h2 className="text-sm tracking-widest uppercase text-[#c8a35d]">
-            Warsztaty
-          </h2>
-          <div className="mt-4 mx-auto w-24 h-px bg-[#c8a35d]" />
-        </div>
+        <SectionHeader title="Warsztaty" />
 
         <div className="space-y-24">
           {workshops.map((workshop, index) => (

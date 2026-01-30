@@ -1,13 +1,10 @@
+import SectionHeader from "../components/ui/SectionHeader";
+
 export default function About() {
   return (
     <section id="about" className="bg-white py-20 sm:py-28 text-slate-800">
       <div className="max-w-full mx-[16rem] px-4">
-        <div className="text-center mb-16">
-          <h2 className="text-sm tracking-widest uppercase text-[#c8a35d]">
-            O nas
-          </h2>
-          <div className="mt-4 mx-auto w-24 h-px bg-[#c8a35d]" />
-        </div>
+        <SectionHeader title="O nas" />
 
         <div className="grid gap-16 lg:grid-cols-2 items-center">
           <div className="space-y-8 text-sm sm:text-2xl leading-relaxed tracking-wide font-light">
