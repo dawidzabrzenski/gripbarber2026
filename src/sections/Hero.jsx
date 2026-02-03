@@ -10,12 +10,12 @@ const Hero = forwardRef(function Hero(_, ref) {
     >
       <div className="absolute inset-0">
         <div
-          className="absolute inset-0 bg-cover bg-top"
+          className="absolute inset-0 bg-cover bg-center"
           style={{
-            backgroundImage: "url('/img/hero-bg.webp')",
+            backgroundImage: "url('/img/new-header.webp')",
           }}
         />
-        <div className="absolute inset-0 bg-black/40" />
+        <div className="absolute inset-0 bg-black/10" />
       </div>
 
       <div className="relative z-10 px-4 max-w-4xl text-center">
@@ -23,12 +23,12 @@ const Hero = forwardRef(function Hero(_, ref) {
           <span className="block text-3xl sm:text-5xl text-white font-normal mb-2">
             Witaj w
           </span>
-          <span className="block text-4xl sm:text-5xl lg:text-6xl text-[#c8a35d]">
+          <span className="block text-4xl sm:text-5xl lg:text-6xl text-gold">
             Grip Barber Academy
           </span>
         </h1>
 
-        <p className="mt-6 text-sm sm:text-base lg:text-lg text-slate-300 leading-relaxed max-w-3xl mx-auto">
+        <p className="mt-6 text-sm sm:text-base lg:text-xl font-light text-slate-300 leading-relaxed max-w-3xl mx-auto">
           W miejscu, gdzie sztuka fryzjerska spotyka się z pasją do kreowania
           unikalnego stylu. Nasza akademia dedykowana jest wszystkim, którzy
           pragną zgłębić tajniki profesjonalnego barberingu i podążać ścieżką

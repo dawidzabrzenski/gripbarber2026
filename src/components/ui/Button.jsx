@@ -9,8 +9,8 @@ export default function Button({
     "inline-flex items-center justify-center px-8 py-4 tracking-widest text-md uppercase transition focus:outline-none";
 
   const variants = {
-    primary: "bg-[#c8a35d] text-white hover:bg-[#b18f52]",
-    outline: "border border-[#c8a35d] text-white hover:bg-[#c8a35d]",
+    primary: "bg-gold text-white hover:bg-[#b18f52]",
+    outline: "border border-gold text-white hover:bg-gold",
     dark: "bg-black text-white hover:bg-black/80",
   };
 

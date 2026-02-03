@@ -6,7 +6,7 @@ const courses = [
     title: "Miesięczny kurs",
     hours: "100h",
     price: "11.000zł",
-    image: "/img/course-1.jpg",
+    image: "/img/course/course-1.webp",
     description:
       "Intensywne miesięczne szkolenie obejmujące pełne 100 godzin praktyki i teorii. Program skupia się na rozwijaniu umiejętności barberskich od podstaw aż po techniki zaawansowane, umożliwiając szybkie wejście do zawodu.",
   },
@@ -14,7 +14,7 @@ const courses = [
     title: "2-Miesięczny kurs",
     hours: "70h",
     price: "9.000zł",
-    image: "/img/course-2.jpg",
+    image: "/img/course/course-2.webp",
     description:
       "Elastyczny kurs przeznaczony dla osób pracujących. Zajęcia odbywają się wyłącznie w weekendy i obejmują 70 godzin nauki. Idealny wybór, jeśli chcesz zdobyć solidne podstawy bez rezygnacji z codziennej aktywności.",
   },
@@ -22,7 +22,7 @@ const courses = [
     title: "4-Miesięczny kurs",
     hours: "300h",
     price: "24.000zł",
-    image: "/img/course-3.jpg",
+    image: "/img/course/course-3.webp",
     description:
       "Kompleksowy program szkoleniowy obejmujący 4 miesiące intensywnych zajęć, łącznie 220 godzin praktyki oraz dodatkowe 80 godzin stażu w naszym salonie. Kurs zapewnia pełne przygotowanie zawodowe oraz gwarancję zatrudnienia po zakończeniu szkolenia.",
   },
@@ -37,7 +37,7 @@ export default function Courses() {
         <div className="grid gap-16 md:gap-20 lg:gap-32 lg:grid-cols-3">
           {courses.map((course) => (
             <div key={course.title} className="relative group">
-              <div className="absolute -top-3 -left-3 w-full h-full bg-[#c8a35d] transition-transform group-hover:-translate-x-1 group-hover:-translate-y-1" />
+              <div className="absolute -top-3 -left-3 w-full h-full bg-gold transition-transform group-hover:-translate-x-1 group-hover:-translate-y-1" />
 
               <div className="relative bg-white text-slate-800 flex flex-col h-full">
                 <img
@@ -51,12 +51,10 @@ export default function Courses() {
                     <h3 className="font-medium text-sm tracking-wide">
                       {course.title}
                     </h3>
-                    <span className="text-sm font-semibold">
-                      {course.price}
-                    </span>
+                    <span className="text-sm font-bold">{course.price}</span>
                   </div>
 
-                  <span className="text-xs text-[#c8a35d] tracking-widest mb-4">
+                  <span className="text-xs text-gold tracking-widest font-semibold mb-4">
                     {course.hours}
                   </span>
 
@@ -70,7 +68,7 @@ export default function Courses() {
         </div>
 
         <div className="mt-20 flex flex-col sm:flex-row justify-center gap-6">
-          <Button href="#contact">Dowiedz się więcej</Button>
+          <Button href="/coursesinfo">Dowiedz się więcej</Button>
           <Button href="#contact">Dofinansowanie</Button>
         </div>
       </div>

@@ -31,27 +31,33 @@ const workshops = [
 
 export default function Workshops() {
   return (
-    <section id="workshops" className="bg-white py-24 sm:py-32">
-      <div className="max-w-screen-2xl mx-auto px-6 sm:px-8 lg:px-12">
+    <section id="workshops" className="bg-white py-32">
+      <div className="max-w-[1600px] mx-auto px-6 sm:px-10 lg:px-16">
         <SectionHeader title="Warsztaty" />
 
-        <div className="space-y-24">
+        <div className="space-y-20 md:space-y-40">
           {workshops.map((workshop, index) => (
-            <div key={index} className="relative group">
-              <div className="absolute -top-3 -left-3 w-full h-full bg-[#c8a35d]  transition-transform group-hover:-translate-x-1 group-hover:-translate-y-1" />
-
-              <div className="relative bg-white border border-slate-200 min-h-[320px] flex">
-                <div className="grid md:grid-cols-[200px_1fr]">
-                  <div className="border-r border-slate-200 p-6 flex flex-col justify-center text-center text-sm">
-                    <span className="font-medium">{workshop.days}</span>
-                    <span className="mt-2 text-slate-500">
-                      {workshop.price}
-                    </span>
+            <div key={index} className="grid gap-16 lg:grid-cols-[240px_1fr]">
+              <div className="relative ml-auto mr-auto ">
+                <div className="sticky top-40 space-y-4">
+                  <div className="text-sm tracking-widest uppercase text-gold">
+                    {workshop.days}
                   </div>
+                  <div className="text-2xl font-light">{workshop.price}</div>
 
-                  <div className="p-8 space-y-4 text-sm leading-relaxed flex flex-col justify-center">
-                    <h3 className="font-medium text-base">{workshop.title}</h3>
+                  <div className="w-16 h-[2px] bg-gold" />
+                </div>
+              </div>
 
+              <div className="relative">
+                <div className="absolute -top-6 -left-6 w-full h-full bg-gold/10" />
+
+                <div className="relative bg-white border border-slate-200 p-10 lg:p-14">
+                  <h3 className="text-2xl font-medium mb-8">
+                    {workshop.title}
+                  </h3>
+
+                  <div className="space-y-6 text-slate-700 leading-relaxed text-sm lg:text-base">
                     {workshop.description.map((text, i) => (
                       <p key={i}>{text}</p>
                     ))}

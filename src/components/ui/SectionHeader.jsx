@@ -19,13 +19,13 @@ export default function SectionHeader({
   return (
     <div className={`${alignMap[align]} mb-24 ${className}`}>
       <h2
-        className={`${sizeMap[size]} tracking-widest font-semibold uppercase text-[#c8a35d]`}
+        className={`${sizeMap[size]} tracking-widest font-semibold uppercase text-gold`}
       >
         {title}
       </h2>
 
       <div
-        className={`mt-2 h-[3px] bg-[#c8a35d] ${
+        className={`mt-2 h-[3px] bg-gold ${
           align === "center"
             ? "mx-auto w-1/4"
             : align === "left"

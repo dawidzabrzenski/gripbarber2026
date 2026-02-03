@@ -6,6 +6,9 @@ export default {
       fontFamily: {
         sans: ["Josefin Sans", "system-ui", "sans-serif"],
       },
+      colors: {
+        gold: "#c8a35d",
+      },
     },
   },
   plugins: [],

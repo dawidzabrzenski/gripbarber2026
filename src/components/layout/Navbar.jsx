@@ -12,33 +12,33 @@ export default function Navbar() {
 
   return (
     <header
-      className={`fixed top-0 w-full z-50 transition-all duration-300
-        ${
-          scrolled
-            ? "bg-black backdrop-blur border-b border-white/10"
-            : "bg-transparent"
-        }
+      className={`isolate fixed top-0 w-full z-50 transition-colors duration-300
+        ${scrolled ? "bg-black  border-white/10" : "bg-black/0"}
       `}
     >
-      <div className="max-w-7xl mx-auto px-4 h-20 flex items-center justify-between text-white">
-        <span className="text-sm tracking-widest uppercase">
-          Grip Barber Academy
-        </span>
+      <div className="max-w-7xl mx-auto px-4 h-24 md:h-28 flex items-center justify-between text-white">
+        <a href="#" className="h-full flex items-center">
+          <img
+            src="/img/logo.svg"
+            alt="GRIP Barber Academy"
+            className="h-[40%] md:h-[60%]"
+          />
+        </a>
 
-        <nav className="hidden md:flex gap-8 text-xs tracking-widest uppercase">
-          <a className="hover:text-[#c8a35d]" href="#about">
+        <nav className="hidden md:flex gap-12 md:text-xs lg:text-base tracking-widest uppercase">
+          <a href="#about" className="nav-underline">
             O nas
           </a>
-          <a className="hover:text-[#c8a35d]" href="#courses">
+          <a className="nav-underline" href="#courses">
             Kursy
           </a>
-          <a className="hover:text-[#c8a35d]" href="#team">
+          <a className="nav-underline" href="#team">
             Nasz zespół
           </a>
-          <a className="hover:text-[#c8a35d]" href="#gallery">
+          <a className="nav-underline" href="#gallery">
             Galeria
           </a>
-          <a className="hover:text-[#c8a35d]" href="#contact">
+          <a className="nav-underline" href="#contact">
             Kontakt
           </a>
         </nav>
@@ -52,7 +52,7 @@ export default function Navbar() {
       </div>
 
       {open && (
-        <div className="md:hidden bg-black/95 text-white border-t border-white/10">
+        <div className="md:hidden bg-black text-white ">
           <nav className="flex flex-col items-center py-8 gap-6 text-sm tracking-widest uppercase">
             <a href="#about" onClick={() => setOpen(false)}>
               O nas

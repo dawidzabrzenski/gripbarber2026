@@ -2,12 +2,12 @@ import SectionHeader from "../components/ui/SectionHeader";
 
 export default function About() {
   return (
-    <section id="about" className="bg-white py-20 sm:py-28 text-slate-800">
-      <div className="max-w-full mx-[16rem] px-4">
+    <section id="about" className="bg-white py-24 sm:py-32 text-slate-800">
+      <div className="max-w-[1600px] mx-auto px-6 sm:px-10 lg:px-16">
         <SectionHeader title="O nas" />
 
-        <div className="grid gap-16 lg:grid-cols-2 items-center">
-          <div className="space-y-8 text-sm sm:text-2xl leading-relaxed tracking-wide font-light">
+        <div className="grid gap-24 items-center lg:grid-cols-[1.2fr_1fr]">
+          <div className="space-y-10 text-base sm:text-xl leading-relaxed tracking-wide font-light">
             <p>
               Grip Barber Academy to szkoła barberingu dla osób, które zaczynają
               od podstaw oraz dla barberów chcących podnieść poziom, dopracować
@@ -33,8 +33,9 @@ export default function About() {
           </div>
 
           <div className="relative">
+            <div className="absolute -top-6 -left-6 w-full h-full bg-gold/20" />
             <img
-              src="/img/about-team.jpg"
+              src="/img/about-team.webp"
               alt="Zespół Grip Barber Academy"
               className="relative w-full object-cover"
             />
