@@ -2,11 +2,11 @@ export default function Button({
   children,
   href,
   variant = "primary",
+  fontSize = "md",
   className = "",
   ...props
 }) {
-  const base =
-    "inline-flex items-center justify-center px-8 py-4 tracking-widest text-md uppercase transition focus:outline-none";
+  const base = `inline-flex items-center justify-center px-8 py-4 tracking-widest text-${fontSize} uppercase transition focus:outline-none`;
 
   const variants = {
     primary: "bg-gold text-white hover:bg-[#b18f52]",

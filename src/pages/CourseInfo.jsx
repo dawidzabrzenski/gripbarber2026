@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import Button from "../components/ui/Button";
 
 const items = [
   {
@@ -119,12 +120,9 @@ export default function CourseInfo() {
           </div>
 
           <div className="mt-24 flex justify-center">
-            <Link
-              to="/"
-              className="px-12 py-3 bg-gold text-black tracking-widest text-xs uppercase hover:bg-[#b18f52] transition"
-            >
+            <Button fontSize="xs" href="/">
               Powrót
-            </Link>
+            </Button>
           </div>
         </div>
       </section>
