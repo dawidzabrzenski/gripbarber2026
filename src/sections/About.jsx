@@ -33,7 +33,7 @@ export default function About() {
           </div>
 
           <div className="relative">
-            <div className="absolute -top-6 -left-6 w-full h-full bg-gold/20" />
+            <div className="absolute -top-3 -left-3 md:-top-6 md:-left-6 w-full h-full bg-gold/20" />
             <img
               src="/img/about-team.webp"
               alt="Zespół Grip Barber Academy"
