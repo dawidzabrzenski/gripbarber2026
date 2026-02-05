@@ -57,7 +57,7 @@ export default function Workshops() {
                     {workshop.title}
                   </h3>
 
-                  <div className="space-y-6 text-slate-700 leading-relaxed text-sm lg:text-base">
+                  <div className="space-y-6 text-slate-700 leading-relaxed text-sm lg:text-base text-justify">
                     {workshop.description.map((text, i) => (
                       <p key={i}>{text}</p>
                     ))}

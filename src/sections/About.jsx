@@ -7,7 +7,7 @@ export default function About() {
         <SectionHeader title="O nas" />
 
         <div className="grid gap-24 items-center lg:grid-cols-[1.2fr_1fr]">
-          <div className="space-y-10 text-base sm:text-xl leading-relaxed tracking-wide font-light">
+          <div className="space-y-10 text-base sm:text-xl leading-relaxed tracking-wide font-light text-justify">
             <p>
               Grip Barber Academy to szkoła barberingu dla osób, które zaczynają
               od podstaw oraz dla barberów chcących podnieść poziom, dopracować

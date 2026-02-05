@@ -94,7 +94,7 @@ export default function Team() {
                       </div>
                     </div>
 
-                    <p className="text-xl font-light leading-relaxed text-slate-300">
+                    <p className="text-xl font-light leading-relaxed text-slate-300 text-justify">
                       {member.description}
                     </p>
                   </div>

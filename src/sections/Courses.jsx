@@ -58,7 +58,7 @@ export default function Courses() {
                     {course.hours}
                   </span>
 
-                  <p className="text-sm leading-relaxed flex-1">
+                  <p className="text-sm leading-relaxed flex-1 text-justify">
                     {course.description}
                   </p>
                 </div>
