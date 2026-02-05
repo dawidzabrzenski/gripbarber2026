@@ -7,7 +7,7 @@ const workshops = [
     price: "1000 zł",
     description: [
       "Podczas szkolenia będziesz mieć okazję obserwować i praktykować różne techniki, które są popularne w dzisiejszych trendach fryzjerskich. Będziesz również uczyć się, jak dobierać odpowiednie narzędzia i produkty do długich włosów, aby osiągnąć pożądane efekty.",
-      "Szkolenie Modern look&learn - długie włosy jest skierowane zarówno do fryzjerów początkujących, jak i do bardziej doświadczonych profesjonalistów, którzy chcą poszerzyć swoją wiedzę i umiejętności w zakresie fryzjerstwa dla długich włosów. Nie są wymagane żadne wcześniejsze doświadczenia ani umiejętności, ponieważ szkolenie jest oparte na praktyce i umożliwia uczestnikom naukę poprzez obserwację i praktykę",
+      "Szkolenie Modern look&learn - długie włosy jest skierowane zarówno do fryzjerów początkujących, jak i do bardziej doświadczonych profesjonalistów, którzy chcą poszerzyć swoją wiedzę i umiejętności w zakresie fryzjerstwa dla długich włosów. Nie są wymagane żadne wcześniejsze doświadczenia ani umiejętności, ponieważ szkolenie jest oparte na praktyce i umożliwia uczestnikom naukę poprzez obserwację i praktykę.",
       "Całe szkolenie trwa jeden dzień i odbywa się w grupie. Uczestnicy mają możliwość zadawania pytań, uzyskiwania informacji zwrotnych od instruktora i wymiany doświadczeń z innymi uczestnikami. Po ukończeniu szkolenia otrzymasz certyfikat potwierdzający udział w kursie Modern look&learn - długie włosy.",
     ],
   },

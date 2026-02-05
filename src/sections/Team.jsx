@@ -51,7 +51,7 @@ export default function Team() {
                 delay={index * motion.reveal.delayStep}
               >
                 <div
-                  className={`relative grid items-center gap-28 ${
+                  className={`relative grid items-center gap-12 md:gap-28 ${
                     isReversed
                       ? "lg:grid-cols-[1fr_540px]"
                       : "lg:grid-cols-[540px_1fr]"
@@ -63,7 +63,7 @@ export default function Team() {
                         src={member.image}
                         alt={`${member.firstName} ${member.lastName}`}
                         loading="lazy"
-                        className="w-[85%] object-cover grayscale transition duration-700 hover:scale-[1.06]"
+                        className="w-[85%] mx-auto object-cover grayscale transition duration-700 hover:scale-[1.06]"
                       />
                     </div>
                   </div>
@@ -94,7 +94,7 @@ export default function Team() {
                       </div>
                     </div>
 
-                    <p className="text-xl font-light leading-relaxed text-slate-300 text-justify">
+                    <p className="text-base md:text-xl font-light leading-relaxed text-slate-300 text-justify">
                       {member.description}
                     </p>
                   </div>
