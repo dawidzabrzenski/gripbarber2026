@@ -34,7 +34,7 @@ export default function Courses() {
       <div className="max-w-screen-xl mx-auto px-12 md:px-4">
         <SectionHeader title="Kursy" />
 
-        <div className="grid gap-16 md:gap-20 lg:gap-32 lg:grid-cols-3">
+        <div className="grid gap-16 md:gap-20 md:w-1/2 md:mx-auto lg:w-full lg:gap-32 lg:grid-cols-3">
           {courses.map((course) => (
             <div key={course.title} className="relative group">
               <div className="absolute -top-3 -left-3 w-full h-full bg-gold transition-transform group-hover:-translate-x-1 group-hover:-translate-y-1" />

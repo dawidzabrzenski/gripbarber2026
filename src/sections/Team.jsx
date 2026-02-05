@@ -76,8 +76,8 @@ export default function Team() {
                   </div>
 
                   <div
-                    className={`relative pl-10 ${
-                      isReversed ? "lg:order-1 text-right pr-10 pl-0" : ""
+                    className={`relative  ${
+                      isReversed ? " lg:order-1 text-right pr-10 pl-0" : "pl-10"
                     }`}
                   >
                     <div
