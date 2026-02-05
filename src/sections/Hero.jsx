@@ -23,7 +23,7 @@ const Hero = forwardRef(function Hero(_, ref) {
             className="absolute inset-0 w-full h-full object-cover"
           />
         </video>
-        <div className="absolute inset-0 bg-black/30" />
+        <div className="absolute inset-0 bg-black/40" />
       </div>
 
       <div className="relative z-10 px-4 max-w-4xl text-center">
