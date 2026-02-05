@@ -9,13 +9,21 @@ const Hero = forwardRef(function Hero(_, ref) {
       className="relative min-h-screen flex items-center justify-center text-white overflow-hidden"
     >
       <div className="absolute inset-0">
-        <div
-          className="absolute inset-0 bg-cover bg-center"
-          style={{
-            backgroundImage: "url('/img/new-header.webp')",
-          }}
-        />
-        <div className="absolute inset-0 bg-black/10" />
+        <video
+          autoPlay
+          loop
+          muted
+          playsInline
+          className="absolute inset-0 w-full h-full object-cover"
+        >
+          <source src="/img/background.webm" type="video/webm" />
+          <img
+            src="/img/new-header.webp"
+            alt="Grip Barber Academy"
+            className="absolute inset-0 w-full h-full object-cover"
+          />
+        </video>
+        <div className="absolute inset-0 bg-black/30" />
       </div>
 
       <div className="relative z-10 px-4 max-w-4xl text-center">
