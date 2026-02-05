@@ -31,6 +31,13 @@ const team = [
     description:
       "Alicja to fryzjerka z ponad 11–12-letnim doświadczeniem, która swoją zawodową drogę rozpoczęła już w wieku 16 lat. Ukończyła szkołę w zawodzie fryzjer z tytułem czeladnika, co daje jej solidne rzemieślnicze podstawy. W pracy łączy precyzję z kreatywnością, a jej styl szkolenia jest konkretny, cierpliwy i nastawiony na realne umiejętności, które kursanci mogą od razu wykorzystać za fotelem. Poza barberingiem rozwija swoje artystyczne pasje — gotowanie, makijaż, rysunek, malarstwo, a w przyszłości również tatuaż. Ta wszechstronność sprawia, że potrafi uczyć nie tylko techniki, ale też estetyki i wyczucia formy.)",
   },
+  {
+    firstName: "Klaudia",
+    lastName: "Nahrebecka",
+    image: "/img/team/team-klaudia.webp",
+    description:
+      "Klaudia to utalentowana fryzjerka z imponującym 11letnim stażem pracy. Prowadząca praktyki szkoleniowe w Grip Barber Academy. Jej pasja do strzyżeń łączy się z umiejętnością tworzenia modnych stylizacji, wykraczających poza przeciętność. Jest oddana swojemu zawodowi i zawsze śledzi nowe trendy w świecie mody fryzjerskiej. Klaudia potrafi nie tylko stworzyć efektowne fryzury, ale także udzielać klientom indywidualnych porad w zakresie pielęgnacji i utrzymywania fryzury. Jej profesjonalne podejście i dbałość o szczegóły zapewniają wysoki stopień zadowolenia klientów. Dla Natalii fryzjerstwo to nie tylko praca, ale proces twórczy, w którym poprzez każdy ruch nożyczek może wyrazić swoją indywidualność i talent.",
+  },
 ];
 
 export default function Team() {
