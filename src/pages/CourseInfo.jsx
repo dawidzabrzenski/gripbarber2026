@@ -105,7 +105,7 @@ export default function CourseInfo() {
                       loading="lazy"
                       decoding="async"
                     />
-                    <div className="absolute inset-0 bg-black/40" />
+                    <div className="absolute inset-0 " />
                   </div>
                 </div>
               </div>

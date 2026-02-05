@@ -69,7 +69,6 @@ export default function Courses() {
 
         <div className="mt-20 flex flex-col sm:flex-row justify-center gap-6">
           <Button href="/coursesinfo">Dowiedz się więcej</Button>
-          <Button href="#contact">Dofinansowanie</Button>
         </div>
       </div>
     </section>

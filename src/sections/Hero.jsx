@@ -28,7 +28,7 @@ const Hero = forwardRef(function Hero(_, ref) {
           </span>
         </h1>
 
-        <p className="mt-6 text-sm sm:text-base lg:text-xl font-light text-slate-300 leading-relaxed max-w-3xl mx-auto">
+        <p className="mt-6 text-base lg:text-xl font-light text-slate-300 leading-relaxed max-w-3xl mx-auto">
           W miejscu, gdzie sztuka fryzjerska spotyka się z pasją do kreowania
           unikalnego stylu. Nasza akademia dedykowana jest wszystkim, którzy
           pragną zgłębić tajniki profesjonalnego barberingu i podążać ścieżką

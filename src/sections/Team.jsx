@@ -25,11 +25,11 @@ const team = [
       "Szymon to doświadczony fryzjer z 20-letnim stażem, który pracował w wielu renomowanych salonach we Wrocławiu.  Prowadzący praktyki szkoleniowe w Grip Barber Academy .Jest prawdziwym indywidualistą, prezentuje niekonwencjonalny styl .  Jest pasjonatem muzyki i eksperymentalnych brzmień. Jego motto to „Biegnij przed siebie, a nie za siebie” - zawsze dąży do rozwoju i inspiruje innych do tego samego. Szymon chce pomagać ludziom, którzy pragną zmienić swoje życie poprzez zdobycie nowego zawodu i nowych umiejętności. Jest również zaangażowany w niesienie pomocy osobom uzależnionym. Oprócz swojej ogromnej pasji do fryzjerstwa, jest również oddanym biegaczem. To dla niego nie tylko forma aktywności fizycznej, ale także sposób na relaks i znalezienie inspiracji.",
   },
   {
-    firstName: "Klaudia",
-    lastName: "Nahrebcka",
-    image: "/img/team/team-klaudia.webp",
+    firstName: "Alicja",
+    lastName: "Wesołowska",
+    image: "/img/team/team-alicja.webp",
     description:
-      "Klaudia to utalentowana fryzjerka z imponującym 11letnim stażem pracy.Prowadząca praktyki szkoleniowe w Grip Barber Academy.Jej pasja do strzyżeń łączy się z umiejętnością tworzenia modnych stylizacji, wykraczających poza przeciętność. Jest oddana swojemu zawodowi i zawsze śledzi nowe trendy w świecie mody fryzjerskiej. Klaudia potrafi nie tylko stworzyć efektowne fryzury, ale także udzielać klientom indywidualnych porad w zakresie pielęgnacji i utrzymywania fryzury. Jej profesjonalne podejście i dbałość o szczegóły zapewniają wysoki stopień zadowolenia klientów. Dla Natalii fryzjerstwo to nie tylko praca, ale proces twórczy, w którym poprzez każdy ruch nożyczek może wyrazić swoją indywidualność i talent.",
+      "Alicja to fryzjerka z ponad 11–12-letnim doświadczeniem, która swoją zawodową drogę rozpoczęła już w wieku 16 lat. Ukończyła szkołę w zawodzie fryzjer z tytułem czeladnika, co daje jej solidne rzemieślnicze podstawy. W pracy łączy precyzję z kreatywnością, a jej styl szkolenia jest konkretny, cierpliwy i nastawiony na realne umiejętności, które kursanci mogą od razu wykorzystać za fotelem. Poza barberingiem rozwija swoje artystyczne pasje — gotowanie, makijaż, rysunek, malarstwo, a w przyszłości również tatuaż. Ta wszechstronność sprawia, że potrafi uczyć nie tylko techniki, ale też estetyki i wyczucia formy.)",
   },
 ];
 
@@ -94,7 +94,7 @@ export default function Team() {
                       </div>
                     </div>
 
-                    <p className="text-base md:text-xl font-light leading-relaxed text-slate-300 text-justify">
+                    <p className="text-base md:text-xl font-normal leading-relaxed text-slate-300 text-justify">
                       {member.description}
                     </p>
                   </div>

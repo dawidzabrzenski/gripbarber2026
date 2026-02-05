@@ -1,3 +1,4 @@
+import { Mail, Phone, User } from "lucide-react";
 import Button from "../components/ui/Button";
 import SectionHeader from "../components/ui/SectionHeader";
 
@@ -12,7 +13,7 @@ export default function Contact() {
             <div className="grid gap-10 sm:grid-cols-2">
               <div className="relative">
                 <span className="absolute left-0 top-1/2 -translate-y-1/2 bg-gold text-black w-10 h-10 flex items-center justify-center">
-                  👤
+                  <User className="text-white w-5 h-5" />
                 </span>
                 <input
                   type="text"
@@ -23,7 +24,7 @@ export default function Contact() {
 
               <div className="relative">
                 <span className="absolute left-0 top-1/2 -translate-y-1/2 bg-gold text-black w-10 h-10 flex items-center justify-center">
-                  ✉️
+                  <Mail className="text-white w-5 h-5" />
                 </span>
                 <input
                   type="email"
@@ -35,7 +36,7 @@ export default function Contact() {
 
             <div className="relative max-w-sm">
               <span className="absolute left-0 top-1/2 -translate-y-1/2 bg-gold text-black w-10 h-10 flex items-center justify-center">
-                ☎️
+                <Phone className="text-white w-5 h-5" />
               </span>
               <input
                 type="tel"
