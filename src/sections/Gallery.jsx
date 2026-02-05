@@ -1,6 +1,7 @@
 import { useState, useRef } from "react";
 import SectionHeader from "../components/ui/SectionHeader";
 import { ChevronDown, ChevronUp } from "lucide-react";
+import Button from "../components/ui/Button";
 
 export default function Gallery() {
   const [isExpanded, setIsExpanded] = useState(false);
@@ -94,9 +95,9 @@ export default function Gallery() {
       </div>
 
       <div className="sticky bottom-8 mt-12 flex justify-center z-10">
-        <button
+        <Button
           onClick={handleToggle}
-          className="flex items-center gap-2 bg-gold text-white px-8 py-3 rounded-lg shadow-lg hover:bg-gold/90 transition-all duration-300 text-sm tracking-wider uppercase"
+          className="flex items-center gap-2 bg-gold text-white px-8 py-3 shadow-lg hover:bg-gold/90 transition-all duration-300 text-sm tracking-wider uppercase"
         >
           {isExpanded ? (
             <>
@@ -109,7 +110,7 @@ export default function Gallery() {
               <ChevronDown className="w-5 h-5" />
             </>
           )}
-        </button>
+        </Button>
       </div>
     </div>
   );
