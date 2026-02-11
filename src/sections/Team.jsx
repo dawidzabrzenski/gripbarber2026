@@ -34,9 +34,8 @@ const team = [
   {
     firstName: "Klaudia",
     lastName: "Nahrebecka",
-    image: "/img/team/team-klaudia.webp",
     description:
-      "Klaudia to utalentowana fryzjerka z imponującym 11letnim stażem pracy. Prowadząca praktyki szkoleniowe w Grip Barber Academy. Jej pasja do strzyżeń łączy się z umiejętnością tworzenia modnych stylizacji, wykraczających poza przeciętność. Jest oddana swojemu zawodowi i zawsze śledzi nowe trendy w świecie mody fryzjerskiej. Klaudia potrafi nie tylko stworzyć efektowne fryzury, ale także udzielać klientom indywidualnych porad w zakresie pielęgnacji i utrzymywania fryzury. Jej profesjonalne podejście i dbałość o szczegóły zapewniają wysoki stopień zadowolenia klientów. Dla Natalii fryzjerstwo to nie tylko praca, ale proces twórczy, w którym poprzez każdy ruch nożyczek może wyrazić swoją indywidualność i talent.",
+      "Klaudia to utalentowana fryzjerka z imponującym 11-letnim stażem pracy. Prowadząca praktyki szkoleniowe w Grip Barber Academy. Jej pasja do strzyżeń łączy się z umiejętnością tworzenia modnych stylizacji, wykraczających poza przeciętność. Jest oddana swojemu zawodowi i zawsze śledzi nowe trendy w świecie mody fryzjerskiej. Klaudia potrafi nie tylko stworzyć efektowne fryzury, ale także udzielać klientom indywidualnych porad w zakresie pielęgnacji i utrzymywania fryzury. Jej profesjonalne podejście i dbałość o szczegóły zapewniają wysoki stopień zadowolenia klientów. Dla Klaudii fryzjerstwo to nie tylko praca, ale proces twórczy, w którym poprzez każdy ruch nożyczek może wyrazić swoją indywidualność i talent.",
   },
 ];
 
@@ -66,12 +65,20 @@ export default function Team() {
                 >
                   <div className={isReversed ? "lg:order-2" : ""}>
                     <div className="overflow-hidden">
-                      <img
-                        src={member.image}
-                        alt={`${member.firstName} ${member.lastName}`}
-                        loading="lazy"
-                        className="w-[85%] mx-auto object-cover grayscale transition duration-700 hover:scale-[1.06]"
-                      />
+                      {member.image ? (
+                        <img
+                          src={member.image}
+                          alt={`${member.firstName} ${member.lastName}`}
+                          loading="lazy"
+                          className="w-[85%] mx-auto object-cover grayscale transition duration-700 hover:scale-[1.06]"
+                        />
+                      ) : (
+                        <div className="w-[85%] mx-auto aspect-[3/4] bg-[#1F2324] flex items-center justify-center grayscale">
+                          <span className="text-slate-500 tracking-widest text-sm">
+                            NO PHOTO
+                          </span>
+                        </div>
+                      )}
                     </div>
                   </div>
 

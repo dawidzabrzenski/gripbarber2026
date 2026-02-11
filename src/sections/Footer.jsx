@@ -67,7 +67,7 @@ export default function Footer() {
                   title="Otwórz w Google Maps"
                   className="text-sm text-slate-600 leading-relaxed hover:text-gold transition"
                 >
-                  Gwiaździsta 18, 53-413, Wrocław
+                  Gwiaździsta 18/8, 53-413, Wrocław
                 </a>
               </div>
             </div>
@@ -85,7 +85,7 @@ export default function Footer() {
                 <li className="flex items-center gap-4 justify-center">
                   <img src="/img/icon-tiktok.svg" className="h-5 w-5" />
                   <a
-                    href="https://www.tiktok.com/@gripbarber"
+                    href="https://www.tiktok.com/@gripbarbershop_ac"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="hover:text-gold transition"
@@ -97,7 +97,7 @@ export default function Footer() {
                 <li className="flex items-center gap-4 justify-center">
                   <img src="/img/icon-facebook.svg" className="h-5 w-5" />
                   <a
-                    href="https://www.facebook.com/gripbarber"
+                    href="https://www.facebook.com/people/Grip-Barber-Shop-Academy/61550476376724/#"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="hover:text-gold transition"
@@ -109,12 +109,24 @@ export default function Footer() {
                 <li className="flex items-center gap-4 justify-center">
                   <img src="/img/icon-instagram.svg" className="h-5 w-5" />
                   <a
-                    href="https://www.instagram.com/gripbarber"
+                    href="https://www.instagram.com/gripbarbershop_academy/"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="hover:text-gold transition"
                   >
                     Instagram
+                  </a>
+                </li>
+
+                <li className="flex items-center gap-4 justify-center">
+                  <img src="/img/icon-booksy.svg" className="h-5 w-5" />
+                  <a
+                    href="https://booksy.com/pl-pl/206460_grip-barber-shop-academy-ul-gwiazdzista-18_barber-shop_13750_wroclaw#ba_s=seo"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="hover:text-gold transition"
+                  >
+                    Booksy
                   </a>
                 </li>
               </ul>

@@ -1,6 +1,11 @@
+import { useEffect } from "react";
 import { Link } from "react-router-dom";
 
 export default function NotFound() {
+  useEffect(() => {
+    document.title = "404 – Strona nie znaleziona | Grip Barber Academy";
+  }, []);
+
   return (
     <main className="min-h-screen bg-[#171A1B] text-white flex items-center justify-center px-6">
       <div className="text-center max-w-xl">
